@@ -1,0 +1,67 @@
+/*BODY*/
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*HEADER*/
+header {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 0.2fr;
+  grid-gap: 20px;
+  border-bottom: 1px solid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+header h1 {
+  margin: 0;
+}
+header nav {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+header nav p {
+  margin: 0;
+}
+header nav p a {
+  text-decoration: none;
+  color: inherit;
+}
+header a {
+  text-align: center;
+}
+
+/*FOOTER*/
+footer {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto, minmax(280px, 1fr));
+  height: 200px;
+  border-top: 1px solid;
+  grid-gap: 20px;
+}
+
+/*MAIN*/
+main {
+  min-height: 60vh;
+  padding: 20px 40px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=private.css.map */MAIN*/
+main {
+  min-height: 60vh;
+  padding: 20px 40px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=private.css.map */
